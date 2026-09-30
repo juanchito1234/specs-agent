@@ -63,6 +63,14 @@ def render_sidebar():
             .stButton > button {
                 border-radius: 8px;
                 transition: all 0.2s ease-in-out;
+                background-color: #1e3a5f;
+                color: white;
+                border: 1px solid #2e5a87;
+            }
+            .stButton > button[kind="primary"]:hover {
+                background-color: #264a73;
+                color: white;
+                border: 1px solid #264a73
             }
             </style>
             """,

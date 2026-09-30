@@ -21,7 +21,7 @@ def process_message(
         api_key,
         model,
         messages,
-        max_tokens=8192
+        max_tokens=16384
     )
 
 
